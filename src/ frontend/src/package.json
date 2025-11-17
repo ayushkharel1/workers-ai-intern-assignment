@@ -1,0 +1,8 @@
+{
+  "name": "workers-ai-intern-assignment",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler publish"
+  }
+}

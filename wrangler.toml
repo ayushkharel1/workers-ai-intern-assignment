@@ -15,3 +15,7 @@ new_classes = ["MEMORY"]
 
 [ai]
 binding = "AI"
+[durable_objects]
+bindings = [
+  { name = "MEMORY", class_name = "MEMORY" }
+]

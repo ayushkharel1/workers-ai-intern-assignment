@@ -1,0 +1,17 @@
+name = "workers-ai-intern-assignment"
+main = "src/index.ts"
+compatibility_date = "2024-11-12"
+
+assets = { directory = "./frontend" }
+
+[durable_objects]
+bindings = [
+  { name = "MEMORY", class_name = "MEMORY" }
+]
+
+[[migrations]]
+tag = "v1"
+new_classes = ["MEMORY"]
+
+[ai]
+binding = "AI"
